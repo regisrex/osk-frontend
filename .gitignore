@@ -16,8 +16,6 @@ dist-ssr
 .vite
 
 # Environment variables (CRITICAL)
-.env
-.env.*
 !.env.example
 *.local
 
@@ -25,7 +23,6 @@ dist-ssr
 coverage
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -34,3 +31,4 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+config.bat
